@@ -111,14 +111,14 @@ Inset:
 
 ```swift
 let sourceFrame = CGRect(x: 20, y: 20, width: 500, height: 350)
-let resultFrame = sourceFrame.frm.inset(top: 10, right: 10, bottom: 10, left: 10) // (30, 30, 480, 330)
+let resultFrame = sourceFrame.frm.inset(top: 10, left: 10, bottom: 10, right: 10) // (30, 30, 480, 330)
 ```
 
 Offset:
 
 ```swift
 let sourceFrame = CGRect(x: 20, y: 20, width: 500, height: 350)
-let resultFrame = sourceFrame.frm.offset(top: 10, right: 10, bottom: 10, left: 10) // (10, 10, 520, 370)
+let resultFrame = sourceFrame.frm.offset(top: 10, left: 10, bottom: 10, right: 10) // (10, 10, 520, 370)
 ```
 
 ## License
