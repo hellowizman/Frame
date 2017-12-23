@@ -43,7 +43,7 @@ Height of string with attributes:
 
 ```swift
 let attributes: [NSAttributedStringKey : Any] = [
-	.font: UIFont.systemFont(ofSize: 36.0, weight: .thin),
+    .font: UIFont.systemFont(ofSize: 36.0, weight: .thin),
     .kern: 0.5
 ]
 
@@ -69,8 +69,8 @@ Height of attributed string:
 
 ```swift
 let attributes: [NSAttributedStringKey : Any] = [
-	.font: UIFont.systemFont(ofSize: 36.0, weight: .thin),
-	.kern: 0.5
+    .font: UIFont.systemFont(ofSize: 36.0, weight: .thin),
+    .kern: 0.5
 ]
 
 let attributedString = NSAttributedString(string: "Some text", attributes: attributes)
@@ -96,8 +96,8 @@ Label's height to fit attributed text:
 
 ```swift
 let attributes: [NSAttributedStringKey : Any] = [
-	.font: UIFont.systemFont(ofSize: 36.0, weight: .thin),
-	.kern: 0.5
+    .font: UIFont.systemFont(ofSize: 36.0, weight: .thin),
+    .kern: 0.5
 ]
 
 let attributedString = NSAttributedString(string: "Some text", attributes: attributes)
