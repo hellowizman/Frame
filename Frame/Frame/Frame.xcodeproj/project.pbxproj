@@ -14,8 +14,6 @@
 		6924F7471FEE51F700A62F93 /* NSAttributedStringExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F7461FEE51F700A62F93 /* NSAttributedStringExtensionManager.swift */; };
 		6924F7501FEE6A6100A62F93 /* LabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F74F1FEE6A6100A62F93 /* LabelManager.swift */; };
 		6924F7521FEE6C5700A62F93 /* UILabelExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F7511FEE6C5700A62F93 /* UILabelExtensionManager.swift */; };
-		6924F7551FEE6F5200A62F93 /* CGRectExtensionOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F7541FEE6F5200A62F93 /* CGRectExtensionOperators.swift */; };
-		6924F7581FEE702B00A62F93 /* CGSizeExtensionOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F7571FEE702B00A62F93 /* CGSizeExtensionOperators.swift */; };
 		6924F75A1FEE70EF00A62F93 /* RectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F7591FEE70EF00A62F93 /* RectManager.swift */; };
 		6924F75C1FEE729A00A62F93 /* CGRectExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F75B1FEE729A00A62F93 /* CGRectExtensionManager.swift */; };
 		6924F75F1FEE73E800A62F93 /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6924F75E1FEE73E800A62F93 /* BaseManager.swift */; };
@@ -31,8 +29,6 @@
 		6924F7461FEE51F700A62F93 /* NSAttributedStringExtensionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensionManager.swift; sourceTree = "<group>"; };
 		6924F74F1FEE6A6100A62F93 /* LabelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelManager.swift; sourceTree = "<group>"; };
 		6924F7511FEE6C5700A62F93 /* UILabelExtensionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensionManager.swift; sourceTree = "<group>"; };
-		6924F7541FEE6F5200A62F93 /* CGRectExtensionOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtensionOperators.swift; sourceTree = "<group>"; };
-		6924F7571FEE702B00A62F93 /* CGSizeExtensionOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtensionOperators.swift; sourceTree = "<group>"; };
 		6924F7591FEE70EF00A62F93 /* RectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectManager.swift; sourceTree = "<group>"; };
 		6924F75B1FEE729A00A62F93 /* CGRectExtensionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtensionManager.swift; sourceTree = "<group>"; };
 		6924F75E1FEE73E800A62F93 /* BaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
@@ -79,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				6924F75D1FEE73DE00A62F93 /* Engine */,
-				6924F7561FEE701F00A62F93 /* Size */,
 				6924F7531FEE6F3B00A62F93 /* Rect */,
 				6924F73E1FEE4EFC00A62F93 /* String */,
 				6924F7431FEE50AB00A62F93 /* AttributedString */,
@@ -121,17 +116,8 @@
 			children = (
 				6924F7591FEE70EF00A62F93 /* RectManager.swift */,
 				6924F75B1FEE729A00A62F93 /* CGRectExtensionManager.swift */,
-				6924F7541FEE6F5200A62F93 /* CGRectExtensionOperators.swift */,
 			);
 			path = Rect;
-			sourceTree = "<group>";
-		};
-		6924F7561FEE701F00A62F93 /* Size */ = {
-			isa = PBXGroup;
-			children = (
-				6924F7571FEE702B00A62F93 /* CGSizeExtensionOperators.swift */,
-			);
-			path = Size;
 			sourceTree = "<group>";
 		};
 		6924F75D1FEE73DE00A62F93 /* Engine */ = {
@@ -226,10 +212,8 @@
 				6924F75A1FEE70EF00A62F93 /* RectManager.swift in Sources */,
 				6924F75F1FEE73E800A62F93 /* BaseManager.swift in Sources */,
 				6924F7421FEE4FF000A62F93 /* StringExtensionManager.swift in Sources */,
-				6924F7581FEE702B00A62F93 /* CGSizeExtensionOperators.swift in Sources */,
 				6924F7451FEE50D700A62F93 /* AttributedStringManager.swift in Sources */,
 				6924F75C1FEE729A00A62F93 /* CGRectExtensionManager.swift in Sources */,
-				6924F7551FEE6F5200A62F93 /* CGRectExtensionOperators.swift in Sources */,
 				6924F7401FEE4F0F00A62F93 /* StringManager.swift in Sources */,
 				6924F7471FEE51F700A62F93 /* NSAttributedStringExtensionManager.swift in Sources */,
 				6924F7501FEE6A6100A62F93 /* LabelManager.swift in Sources */,
