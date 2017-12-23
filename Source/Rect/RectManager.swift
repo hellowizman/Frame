@@ -28,7 +28,7 @@ public class RectManager: BaseManager<CGRect> {
     
     // MARK: Public object methods
     
-    public func inset(top: CGFloat, right: CGFloat, bottom: CGFloat, left: CGFloat) -> CGRect {
+    public func inset(top: CGFloat, left: CGFloat, bottom: CGFloat, right: CGFloat) -> CGRect {
         return CGRect(
             x: self.value.origin.x + left,
             y: self.value.origin.y + top,
@@ -37,7 +37,7 @@ public class RectManager: BaseManager<CGRect> {
         )
     }
     
-    public func offset(top: CGFloat, right: CGFloat, bottom: CGFloat, left: CGFloat) -> CGRect {
+    public func offset(top: CGFloat, left: CGFloat, bottom: CGFloat, right: CGFloat) -> CGRect {
         return CGRect(
             x: self.value.origin.x - left,
             y: self.value.origin.y - top,
