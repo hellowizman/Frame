@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Frame"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "Set of methods to work with layout in iOS"
 
   # This description is used to generate tags and improve search results.
