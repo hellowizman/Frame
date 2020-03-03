@@ -53,7 +53,7 @@ Simplifies work with layout in iOS. Provides set of tools for managing view's po
   #  profile URL.
   #
 
-  s.author             = { "Igor Matyushkin" => "hello.wizman@gmail.com" }
+  s.author             = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
   #s.author    = "Igor Matyushkin"
   # s.authors            = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
   # s.social_media_url   = ""
