@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Frame"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Set of methods to work with layout in iOS"
 
   # This description is used to generate tags and improve search results.
@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
 Simplifies work with layout in iOS. Provides set of tools for managing view's position, size and many other things.
                    DESC
 
-  s.homepage     = "https://github.com/igormatyushkin014/Frame"
-  s.screenshots  = "https://github.com/igormatyushkin014/Frame/raw/master/Images/logo_2048_2048.png"
+  s.homepage     = "https://github.com/HelloWizman/Frame"
+  s.screenshots  = "https://github.com/HelloWizman/Frame/raw/master/Images/logo_2048_2048.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Simplifies work with layout in iOS. Provides set of tools for managing view's po
   #  profile URL.
   #
 
-  s.author             = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
+  s.author             = { "Igor Matyushkin" => "hello.wizman@gmail.com" }
   #s.author    = "Igor Matyushkin"
   # s.authors            = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
   # s.social_media_url   = ""
@@ -80,7 +80,7 @@ Simplifies work with layout in iOS. Provides set of tools for managing view's po
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/igormatyushkin014/Frame.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/HelloWizman/Frame.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
