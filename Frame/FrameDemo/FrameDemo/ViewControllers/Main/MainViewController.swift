@@ -57,7 +57,7 @@ class MainViewController: UIViewController {
     
     // MARK: Private object methods
     
-    fileprivate func attributesForDescriptionLabelText() -> [NSAttributedStringKey : Any] {
+    fileprivate func attributesForDescriptionLabelText() -> [NSAttributedString.Key : Any] {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .center
         
