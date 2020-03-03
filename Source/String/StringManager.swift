@@ -27,7 +27,7 @@ public class StringManager: BaseManager<String> {
     
     // MARK: Public object methods
     
-    public func sizeThatFits(_ size: CGSize, withAttributes attributes: [NSAttributedStringKey : Any]?) -> CGSize {
+    public func sizeThatFits(_ size: CGSize, withAttributes attributes: [NSAttributedString.Key : Any]?) -> CGSize {
         let boundingRect = self.value.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: attributes, context: nil)
         
         return CGSize(
@@ -36,13 +36,13 @@ public class StringManager: BaseManager<String> {
         )
     }
     
-    public func width(forHeight height: CGFloat, andAttributes attributes: [NSAttributedStringKey : Any]?) -> CGFloat {
+    public func width(forHeight height: CGFloat, andAttributes attributes: [NSAttributedString.Key : Any]?) -> CGFloat {
         let maximumSize = CGSize(width: .greatestFiniteMagnitude, height: height)
         let boundingRect = self.value.boundingRect(with: maximumSize, options: .usesLineFragmentOrigin, attributes: attributes, context: nil)
         return ceil(boundingRect.size.width) + 1.0
     }
     
-    public func height(forWidth width: CGFloat, andAttributes attributes: [NSAttributedStringKey : Any]?) -> CGFloat {
+    public func height(forWidth width: CGFloat, andAttributes attributes: [NSAttributedString.Key : Any]?) -> CGFloat {
         let maximumSize = CGSize(width: width, height: .greatestFiniteMagnitude)
         let boundingRect = self.value.boundingRect(with: maximumSize, options: .usesLineFragmentOrigin, attributes: attributes, context: nil)
         return ceil(boundingRect.size.height) + 1.0
